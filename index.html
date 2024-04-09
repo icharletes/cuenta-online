@@ -1,150 +1,157 @@
 <!DOCTYPE html>
-<html lang="cl">
+<html lang="en">
 <head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
-		<link rel="stylesheet" href="css/style-propio.css">
-		<link rel="stylesheet" href="css/style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style-propio.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="cartola-main">
-						<h1>CARTOLA METROBOLSAS</h1>
-						
-						<form class="cartola">
+<body>
+    
+
+    <!--contenedor de ayuda-->
+    <div class="container">
+        <div class="row">
+            <div class="suc_tab">
+
+                <!--solo implementar cartola-main y table-resp dentro de la div suc_tab ya que estan los estilos creados-->
+
+                <div class="cartola-main">
+                    <h1 class="cart-title">Cartola Productos Metrobolsa</h1>
+
+                    <p class="cart-subtitle">Ingresa fechas de período de consulta</p>
+
+                    <form class="cartola">
 	
-							<div class="cartola-item">
-	
-	
-								<div class="form_cartola-wrap">
-									<div class="cartola-items">
-										<label>Fecha actual desde:</label>
-										<input class="date-item" type="date">
-										<div class="ico-date">
-											<img src="img/date-icon.svg" alt="">
-										</div>
-									</div>
-								</div>
-	
-								<i class="icon-arrow"><img src="img/arrow.svg" alt=""></i>
-			
-								<div class="form_cartola-wrap">
-									<div class="cartola-items">
-										<label>Fecha actual hasta:</label>
-										<input class="date-item" type="date">
-										<div class="ico-date">
-											<img src="img/date-icon.svg" alt="">
-										</div>
-									</div>
-								</div>
-	
-	
-							</div><!--cartola-item-->
-							<a href="#" class="btn-cta">Ver datos</a>
-						</form><!--form .cartola-->
-					</div><!--cartola-main-->
-				</div>
-			</div><!--row-->
-
-			<!--tabla-->
-			<div class="row">
-				
-				<div class="col-sm-12">
-					<div class="table-resp">
-						<table class="blueTable">
-						<thead>
-							<tr class="header-table">
-								<div class="cacho-left"><img src="img/cacho.svg" alt=""></div>
-								<div class="cacho-right"><img src="img/cacho2.svg" alt=""></div>
-								<th style="width: 100px;" class="title-table">Fecha activación</th>
-								<th style="width: 100px;" class="title-table">Fecha compra</th>
-								<th style="width: 140px;" class="title-table">Producto</th>
-								<th style="width: 80px;" class="title-table">M<sup>3</sup> producto</th>
-								<th style="width: 250px;" class="title-table">Nº producto</th>
-								<th style="width: 100px;" class="title-table">Fecha inicio</th>
-								<th style="width: 100px;" class="title-table">Fecha fin</th>
-								<th style="width: 100px;" class="title-table">Consumo (m<sup>3</sup>)</th>
-								<th style="width: 100px;" class="title-table">Saldo (m<sup>3</sup>)</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="table-strip">
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">1234567891011121314151617181920</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-							</tr>
-
-							<tr class="table-strip">
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">1234567891011121314151617181920</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-							</tr>
-
-							<tr class="table-strip">
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">1234567891011121314151617181920</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-							</tr>
-
-							<tr class="table-strip">
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">1234567891011121314151617181920</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-							</tr>
-							
-							<tr class="table-strip">
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">1234567891011121314151617181920</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">01-01-2021</td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-								<td class="table_data">250,46 m<sup>3</sup></td>
-							</tr>
-
-						</tbody>
-						</table>
-					</div>
-				</div>
+                        <div class="cartola-item">
 
 
-				
-			</div>
-			<!--fin tabla-->
+                            <div class="form_cartola-wrap">
+                                <div class="cartola-items">
+                                    <label>Desde:</label>
+                                    <input class="date-item" type="date">
+                                    <div class="ico-date">
+                                        <img src="img/date-icon.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
 
-		</div>
+                            <i class="icon-arrow"><img src="img/arrow.svg" alt=""></i>
+        
+                            <div class="form_cartola-wrap">
+                                <div class="cartola-items">
+                                    <label>Hasta:</label>
+                                    <input class="date-item" type="date">
+                                    <div class="ico-date">
+                                        <img src="img/date-icon.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                           
+                    </div><!--cartola-item-->
+                    <a href="#" class="btn-cta">Ver datos</a>
+
+                </div><!--cartola-main-->
+
+
+                <!--Tabla-->
+
+                <div class="table-resp">
+                    <table class="blueTable">
+                    <thead>
+                        <tr class="header-table">
+                            <div class="cacho-left"><img src="img/cacho.svg" alt=""></div>
+                            <div class="cacho-right"><img src="img/cacho2.svg" alt=""></div>
+                            <th style="width: 100px;" class="title-table">Fecha activación</th>
+                            <th style="width: 100px;" class="title-table">Fecha compra</th>
+                            <th style="width: 140px;" class="title-table">Producto</th>
+                            <th style="width: 80px;" class="title-table">M<sup>3</sup> producto</th>
+                            <th style="width: 250px;" class="title-table">Nº producto</th>
+                            <th style="width: 100px;" class="title-table">Fecha inicio</th>
+                            <th style="width: 100px;" class="title-table">Fecha fin</th>
+                            <th style="width: 100px;" class="title-table">Consumo (m<sup>3</sup>)</th>
+                            <th style="width: 100px;" class="title-table">Saldo (m<sup>3</sup>)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-strip">
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">1234567891011121314151617181920</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                        </tr>
+
+                        <tr class="table-strip">
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">1234567891011121314151617181920</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                        </tr>
+
+                        <tr class="table-strip">
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">1234567891011121314151617181920</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                        </tr>
+
+                        <tr class="table-strip">
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">1234567891011121314151617181920</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                        </tr>
+                        
+                        <tr class="table-strip">
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">1 Giftcard <br> Metrobolsa 300 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">1234567891011121314151617181920</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">01-01-2021</td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                            <td class="table_data">250,46 m<sup>3</sup></td>
+                        </tr>
+
+                    </tbody>
+                    </table>
+                </div>
 
 
 
-	</body>
+                <!--Fin Tabla-->
+
+
+
+            </div><!--suc_tab-->
+        </div>
+    </div>
+
+
+
+
+</body>
 </html>
